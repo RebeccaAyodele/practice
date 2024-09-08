@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+
+/* Some Variables */
+:root {
+    --main-color: #1fe374;
+    --second-color: #00ad6a;
+    --text-color: #080c16;
+    --bg-color: #fcfcfc;
+} 
+
+.green-background {
+    background-color: #eafaf1;
+    border-bottom: 1px solid #d9deee;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 2rem;;
+    background: linear-gradient(90deg, var(--second-color), var(--main-color));
+    color: transparent;
+    --webkit-background-clip: text
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-clip: text;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 5rem;
+    padding-top: 4rem;
+    list-style: none;
+}
+
+.navbar a {
+    color: var(--second-color);
+    font-weight: 700;
+    font-size: .9rem;   
+}
+
+.navbar ul .sign-up {
+    border: 2px solid var(--second-color);
+    padding: 0.5rem 1rem;
+}
+
+.navbar ul .sign-up:hover {
+    box-shadow: -3px 3px var(--second-color);
+}
+
+.navbar a:not(.sign-up):hover {
+    color: var(--text-color)
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    padding-top: 4rem;
+    line-height: 3.8rem;
+}
+
+.box {
+    display: flex;
+    margin-top: 6rem;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.686);
+}
+
+.space {
+    height: 1.5rem;
+}
+
+.box-1 {
+    height: 30rem;
+    width: 25rem;
+    position: relative;
+    top: 7rem;
+    padding: 0 4.3rem;
+}
+
+.box-1 h3 {
+    color: var(--second-color);
+}
+
+.box-1 ul {
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.box-1 p {
+    font-size: 15px;
+}
+.box-1 p a {
+    text-decoration: underline;
+    color: black;
+}
+
+.box-2 {
+    height: 42rem;
+    width: 25rem;
+    background-color: var(--bg-color);
+    border: 1px solid var(--second-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.recommended {
+    height: 1.5rem;
+    background-color: var(--second-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.recommended {
+    color: var(--bg-color);
+    font-weight: 700;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.box-2 h2 {
+    color: var(--second-color);
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    padding-top: 2rem;
+}
+
+.box-2 h3 {
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.573);
+    margin-bottom: 1.2rem;
+}
+
+.box-2 p a {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.704);
+}
+
+.box-2 .sign-up-now {
+    display: flex;
+    margin: 0 auto;
+    background-color: var(--main-color);
+    height: 3.5rem;
+    width: 11rem;
+    margin-bottom: 1.8rem;
+}
+
+
+.box-2 .sign-up-now p {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: auto;
+}
+
+
+#sign-up-now:hover {
+    color: var(--text-color);
+
+}
+
+.pulse-basics p {
+    font-size: .8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.content ul {
+    list-style: none;
+    font-size: .9rem;
+}
+
+.content ul li {
+    padding: 0 1rem 1rem 1.8rem;
+}
+
+.checkmark {
+    color: var(--second-color);
+}
+
+.grey {
+    height: 5rem;
+    width: 100%;
+    background-color: #ebeffa;
+    border-bottom: 1px solid #d9deee;
+    
+}
+
+.grey p {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: .85rem;
+}
+
+.box-3 {
+    height:35rem;
+    width: 25rem;
+    background-color: var(--bg-color);
+    position: relative;
+    top: 3.8rem;
+    background-color: var(--bg-color);
+    border: 1px solid #d9deee;
+}
+
+.box-3 h4 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--second-color);
+    margin-top: 2rem;
+    line-height: 2.5rem;
+}
+
+.box-3 div .amount {
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.573);
+    margin-bottom: 1.2rem;
+}
+
+.premium {
+    display: flex;
+    margin: 0 auto;
+    background-color: var(--main-color);
+    height: 3.5rem;
+    width: 12rem;
+    margin-bottom: 1.8rem;  
+}
+
+.premium-text {
+    margin: auto;
+}
+
+.premium-text a {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.premium-text a:hover {
+    color: black;
+}
+
+.box-3 ul {
+    list-style: none;
+}
+
+.green-end {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.note {
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.849);
+}
+
+.inc {
+    color: var(--second-color);
+    font-size: .8rem;
+    font-weight: 600;
+    margin: 1rem 0 5rem 0;
+}
+
+
+/************* WHITE BACKGROUND ***************/
+/************* WHITE BACKGROUND ***************/
+/************* WHITE BACKGROUND ***************/
+
+.white-background {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding-bottom: 8rem;
+}
+
+.white-background h2 {
+    padding: 6rem 0 2rem 12rem;
+    font-size: 2.8rem;
+}
+
+.questions-and-answers {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    margin: 0 1.5rem 0 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.right {
+    flex: 1;
+    margin: 0 12rem 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.right div:last-child {
+    margin-top: 7.2rem;
+}
+
+.answer {
+    line-height: 1.8rem;
+    color: rgba(0, 0, 0, 0.759);
+}
+
+/*************** BLACK BACKGROUND ***************/
+/*************** BLACK BACKGROUND ***************/
+/*************** BLACK BACKGROUND ***************/
+
+.black-background {
+    background-color: var(--text-color);
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer-left {
+    padding: 6rem 0 2rem 11.5rem;
+}
+
+.footer-logo {
+    background: linear-gradient(90deg, var(--second-color), var(--main-color));
+    color: transparent;
+    --webkit-background-clip: text
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-clip: text;
+    font-size: 4rem;
+}
+
+.trial {
+    background: linear-gradient(90deg, var(--second-color), var(--main-color));
+    height: 3.5rem;
+    width: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 14px;
+}
+
+.trial-text {
+    color: black;
+}
+
+.small {
+    font-size: .7rem;
+    color: rgba(255, 255, 255, 0.464);
+    margin-top: 7rem;
+}
+
+.small a {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.464);
+}
+
+.links {
+    display: flex;
+    position: relative;
+    left: 50rem;
+    top: -20rem;
+    gap: 5rem;
+    line-height: 2.8rem;
+}
+
+.links .white {
+    color: var(--bg-color);
+    font-weight: 700;
+}
+
+.links .content {
+    color: var(--main-color);
+    font-weight: 400;
+}
+
+.links .content:hover {
+    color: var(--bg-color);
+}
